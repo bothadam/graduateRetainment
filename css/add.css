@@ -18,22 +18,40 @@ input {
 
 input[type=text] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 12px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
-input[type=text] {
+
+input[type=submit] {
+    height: 75px;
+    width: 200px;
+    background-color: #3c516b;
+    color: white;
+    border: 2px rgb(29, 29, 29) solid;
+}
+
+input[type=reset] {
+    height: 75px;
+    width: 100px;
+    background-color: #3c516b;
+    color: white;
+    border: 2px rgb(29, 29, 29) solid;
+}
+
+select{
+    width: 75px;
+    line-height: 50px;
+    font-size: 18pt;
+}
+
+
+option{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    height: 10%;
-    background-color: rgb(81, 83, 97);
-    color: white;
-    border: 1ch rgb(29, 29, 29) solid;
+    color:   rgb(27, 53, 92);
+    font-size: 20;
 }
 
